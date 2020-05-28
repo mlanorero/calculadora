@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://vjs.zenedn.net/7.2/video-js.min.css">
+    <script src="http://svjs.zenedn.net/7.2/video-js.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Video.js</title>
+</head>
+<body>
+   <header>
+       <h1 class="titulo">Lorem Ipsum Video</h1>
+   </header>
+
+   <main>
+       <div class="contenedor">
+            <video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+                <source src="video/keyboard.mp4" type="video/mp4">
+            </video>
+
+            <article>
+                <h2>Lorem Ipsum Video</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id architecto ducimus ipsa qui repudiandae at! Commodi rerum, odio aut non atque consequuntur explicabo? Suscipit officiis ut enim architecto, fugit quae.</p>
+            </article>
+       </div>
+   </main>
+
+    <script>
+        var reproducto = videojs = video.js('fm-video', {
+            fluid: true
+        });
+    </script>
+</body>
+</html>
